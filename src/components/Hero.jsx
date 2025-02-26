@@ -1,5 +1,6 @@
 import ImgProfile from "../assets/img/ImgProfile.webp";
 import { Badge } from "./Badge";
+import { Button } from "./Button";
 import { ProfileImg } from "./ProfileImg";
 export const Hero = () => {
   return (
@@ -10,29 +11,33 @@ export const Hero = () => {
         Hernán Sánchez
       </h1>
       <p style={{ textAlign: "center", marginBottom: "12px" }}>
-        Apasionado por la tecnología, desarrollo y diseño UI. Con experiencia en
-        maquetación y desarrollo Frontend, combino funcionalidad y diseño
-        mediante distintas tecnologías, me enfoco en soluciones innovadoras,
-        creativas y eficientes. Destaco de mi la perseverancia, el compañerismo
-        y el entusiasmo por el aprendizaje continuo. Actualmente busco seguir
-        desarrollando mis habilidades y aportar mis conocimientos dentro de un
-        equipo dinámico, enfrentando nuevos desafíos a través de un enfoque
-        proactivo y orientado a resultados.
+        Apasionado por la tecnología, el desarrollo y el diseño UI. Actualmente
+        cursando la Tec. en programación en la Universidad Nacional Guillermo
+        Brown.
       </p>
       <div
         style={{
           marginRight: "auto",
           marginLeft: "auto",
-          width: "60%",
+          width: "90%",
           display: "flex",
           justifyContent: "space-around",
           alignItems: "center",
         }}
       >
-        <button>Contáctame</button>
-        <button>Copy email</button>
+        <Button
+          bgColor="#383838"
+          color="#f0f0f0"
+          border="none"
+          value="Contáctame"
+        />
+        <Button
+          bgColor="transparent"
+          color="#f0f0f0"
+          border="2px solid rgba(192,192,192, 0.35)"
+          value="Copy email"
+        />
       </div>
-
     </>
   );
 };

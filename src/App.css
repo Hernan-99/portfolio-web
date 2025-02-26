@@ -101,7 +101,7 @@ ul {
   background-color: #28c780;
   border-radius: 100%;
   position: relative; /* Necesario para que ::after se posicione en relación a este elemento */
-  margin-right: 8px; 
+  margin-right: 8px;
 }
 
 .contact::after {
@@ -114,4 +114,14 @@ ul {
   background-color: rgba(40, 199, 128, 0.15);
   border-radius: 100%;
   transform: translate(-50%, -50%); /* Lo centra respecto al <a> */
+}
+
+.shadow {
+  transition: ease-in-out 200ms;
+}
+
+.shadow:hover {
+  -webkit-box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.75);
 }
