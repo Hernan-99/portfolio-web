@@ -39,12 +39,12 @@ html {
   color: #ffffff;
 }
 .contactme-dark {
-  background-color: #161616;
+  background-color: rgba(144, 144, 144, 0.35);
   color: #f0f0f0;
 }
 .contactme-light {
-  background-color: #fff;
-  color: #212121;
+  background-color: #141414;
+  color: #f0f0f0;
 }
 .contactme {
   padding: 10px;
@@ -77,7 +77,7 @@ footer {
 }
 
 .icon-links:hover {
-  color: #ccc;
+  color: #909090;
 }
 
 ul {

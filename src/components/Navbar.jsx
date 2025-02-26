@@ -49,7 +49,7 @@ export const Navbar = ({ theme, handleTheme }) => {
         </button>
         <button
           className={`contactme ${
-            theme === "dark" ? "dark-mode " : "light-mode"
+            theme === "dark" ? "contactme-dark " : "contactme-light"
           }`}
         >
           Contactame
