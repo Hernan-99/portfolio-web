@@ -59,7 +59,7 @@ html {
 
 header,
 main,
-footer {
+.footer, .copy {
   margin-bottom: 20px;
   min-width: 300px;
   max-width: 1400px;
@@ -67,6 +67,12 @@ footer {
   margin-left: auto;
   padding: 18px;
   border-radius: 16px;
+}
+
+.copy {
+  color: #fff;
+  text-align: center;
+  padding: 40px 18px;
 }
 
 .icon-links {

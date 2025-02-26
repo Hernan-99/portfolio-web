@@ -1,4 +1,5 @@
 export const IconLink = ({ Icon, theme }) => {
+  // agregar el context
   return (
     <li>
       <a href="">

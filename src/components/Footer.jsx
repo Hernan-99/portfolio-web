@@ -1,13 +1,15 @@
-import { useContext } from "react";
-import ThemeContext from "../context/ThemeContext";
+import { SocialMedia } from "./SocialMedia";
+import { Credits } from "./Credits";
 
 export const Footer = () => {
-  const { theme } = useContext(ThemeContext);
   return (
-    <footer
-      className={`dark-mode ${theme === "dark" ? "dark-mode" : "light-mode"}`}
-    >
-      Footer
+    <footer>
+      <SocialMedia />
+      <Credits
+        copywrite="© 2025 Hernan Sanchez – Frontend Developer"
+        linkedin="https://linkedin.com"
+        github="https://github.com"
+      />
     </footer>
   );
 };
