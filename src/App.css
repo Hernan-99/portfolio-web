@@ -84,3 +84,34 @@ ul {
   list-style: none;
   margin: 0;
 }
+/* -------------------------- */
+
+/* .contact {
+  width: 8px;
+  height: 8px;
+  background-color: rgb(40, 199, 128);
+  border-radius: 100%;
+  border: none;
+} */
+
+.contact {
+  display: inline-block; /* Hace que el <a> pueda tener dimensiones */
+  width: 8px;
+  height: 8px;
+  background-color: #28c780;
+  border-radius: 100%;
+  position: relative; /* Necesario para que ::after se posicione en relación a este elemento */
+  margin-right: 8px; 
+}
+
+.contact::after {
+  content: "";
+  position: absolute; /* Permite posicionarlo sobre el <a> */
+  top: 50%;
+  left: 50%;
+  width: 30px;
+  height: 30px;
+  background-color: rgba(40, 199, 128, 0.15);
+  border-radius: 100%;
+  transform: translate(-50%, -50%); /* Lo centra respecto al <a> */
+}
