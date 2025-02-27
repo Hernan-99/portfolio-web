@@ -51,6 +51,7 @@ export const Navbar = ({ theme, handleTheme }) => {
           className={`contactme ${
             theme === "dark" ? "contactme-dark " : "contactme-light"
           }`}
+
         >
           Contactame
         </button>

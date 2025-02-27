@@ -1,8 +1,11 @@
+import { useContext } from "react";
 import ImgProfile from "../assets/img/ImgProfile.webp";
 import { Badge } from "./Badge";
 import { Button } from "./Button";
 import { ProfileImg } from "./ProfileImg";
+import ThemeContext from "../context/ThemeContext";
 export const Hero = () => {
+  const { theme } = useContext(ThemeContext);
   return (
     <>
       <Badge title="Desarrollador Frontend Jr" />
@@ -10,7 +13,10 @@ export const Hero = () => {
       <h1 style={{ textAlign: "center", marginBottom: "12px" }}>
         Hernán Sánchez
       </h1>
-      <p style={{ textAlign: "center", marginBottom: "12px" }}>
+      <p
+        className={`text-dark ${theme === "dark" ? "text-dark" : "text-light"}`}
+        style={{ textAlign: "center", marginBottom: "12px", fontWeight: "500" }}
+      >
         Apasionado por la tecnología, el desarrollo y el diseño UI. Actualmente
         cursando la Tec. en programación en la Universidad Nacional Guillermo
         Brown.
@@ -25,12 +31,13 @@ export const Hero = () => {
           alignItems: "center",
         }}
       >
-        <Button
-          bgColor="#383838"
-          color="#f0f0f0"
-          border="none"
-          value="Contáctame"
-        />
+        <button
+          className={`contactme ${
+            theme === "dark" ? "contactme-dark " : "contactme-light"
+          }`}
+        >
+          Contactame
+        </button>
         <Button
           bgColor="transparent"
           color="#f0f0f0"

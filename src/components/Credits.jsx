@@ -9,7 +9,12 @@ export const Credits = ({ copywrite, linkedin, github }) => {
         theme === "dark" ? "dark-mode" : "light-mode"
       }`}
     >
-      <p style={{ marginBottom: "20px" }}>{copywrite}</p>
+      <p
+        className={`text-dark ${theme === "dark" ? "text-dark" : "text-light"}`}
+        style={{ marginBottom: "20px" }}
+      >
+        {copywrite}
+      </p>
       <nav>
         <ul
           style={{
@@ -22,12 +27,12 @@ export const Credits = ({ copywrite, linkedin, github }) => {
           }}
         >
           <li>
-            <a style={{ color: "#fff" }} href={linkedin}>
+            <a className={`text-dark ${theme === "dark" ? "text-dark" : "text-light"}`} href={linkedin}>
               Linkedin
             </a>
           </li>
           <li>
-            <a style={{ color: "#fff" }} href={github}>
+            <a className={`text-dark ${theme === "dark" ? "text-dark" : "text-light"}`} href={github}>
               GitHub
             </a>
           </li>

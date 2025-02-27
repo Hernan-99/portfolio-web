@@ -1,9 +1,16 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-export const SocialIcon = ({ icon, theme }) => {
+import { useContext } from "react";
+import ThemeContext from "../context/ThemeContext";
+export const SocialIcon = ({ icon }) => {
+  const { theme } = useContext(ThemeContext);
   console.log(theme);
   return (
     <li>
-      <a href="" style={{ color: "#f0f0f0", fontSize: "1.3rem" }}>
+      <a
+        href=""
+        className={`text-dark ${theme === "dark" ? "text-dark" : "text-light"}`}
+        style={{ fontSize: "1.3rem" }}
+      >
         <FontAwesomeIcon icon={icon} />
       </a>
     </li>
