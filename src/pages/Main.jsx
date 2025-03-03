@@ -1,14 +1,11 @@
-import { useContext } from "react";
-import ThemeContext from "../context/ThemeContext";
 import { Hero } from "../components/Hero";
+import { Jumbotron } from "../components/jumbotron/Jumbotron";
 
 export const Main = () => {
-  const { theme } = useContext(ThemeContext);
   return (
-    <main
-      className={`dark-mode ${theme === "dark" ? "dark-mode" : "light-mode"}`}
-    >
+    <main>
       <Hero />
+      <Jumbotron />
     </main>
   );
 };

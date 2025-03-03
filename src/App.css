@@ -39,11 +39,11 @@ html {
   color: #ccc;
 }
 .text-light {
-  color: #373737;
+  color: #6E6E6E;
 }
 
 header,
-main,
+.hero,
 .footer,
 .copywirte {
   margin-bottom: 20px;
