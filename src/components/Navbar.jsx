@@ -8,6 +8,7 @@ import {
 } from "@heroicons/react/16/solid";
 
 import { IconLink } from "./IconLink";
+import { DefaultButton } from "./DefaultButton";
 
 export const Navbar = ({ theme, handleTheme }) => {
   return (
@@ -47,14 +48,8 @@ export const Navbar = ({ theme, handleTheme }) => {
             <IconLink theme={theme} Icon={SunIcon} />
           )}
         </button>
-        <button
-          className={`contactme ${
-            theme === "dark" ? "contactme-dark " : "contactme-light"
-          }`}
 
-        >
-          Contactame
-        </button>
+        <DefaultButton />
       </ul>
     </nav>
   );

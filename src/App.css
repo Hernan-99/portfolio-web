@@ -20,12 +20,6 @@ html {
   background-color: #f0f0f0;
 }
 
-.wrapper {
-  width: 100%;
-  height: 100vh;
-  padding: 18px;
-}
-
 .dark-mode {
   background-color: #212121;
   color: #ffffff;
@@ -107,13 +101,6 @@ ul {
 }
 /* -------------------------- */
 
-/* .contact {
-  width: 8px;
-  height: 8px;
-  background-color: rgb(40, 199, 128);
-  border-radius: 100%;
-  border: none;
-} */
 
 .contact {
   display: inline-block; /* Hace que el <a> pueda tener dimensiones */

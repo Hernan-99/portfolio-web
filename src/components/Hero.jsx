@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import ImgProfile from "../assets/img/ImgProfile.webp";
 import { Badge } from "./Badge";
-import { Button } from "./Button";
+import { OutlineButton } from "./OutlineButton";
 import { ProfileImg } from "./ProfileImg";
 import ThemeContext from "../context/ThemeContext";
 export const Hero = () => {
@@ -38,7 +38,7 @@ export const Hero = () => {
         >
           Contactame
         </button>
-        <Button
+        <OutlineButton
           bgColor="transparent"
           color="#f0f0f0"
           border="2px solid rgba(192,192,192, 0.35)"

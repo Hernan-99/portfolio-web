@@ -1,4 +1,4 @@
-export const Button = ({ bgColor, color, border, value }) => {
+export const OutlineButton = ({ bgColor, color, border, value }) => {
   return (
     <button
       className="shadow contactme"
