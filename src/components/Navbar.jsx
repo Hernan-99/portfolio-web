@@ -8,7 +8,7 @@ import {
 } from "@heroicons/react/16/solid";
 
 import { IconLink } from "./IconLink";
-import { DefaultButton } from "./DefaultButton";
+import { DefaultButton } from "./buttons/DefaultButton";
 
 export const Navbar = ({ theme, handleTheme }) => {
   return (

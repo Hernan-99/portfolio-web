@@ -42,33 +42,10 @@ html {
   color: #373737;
 }
 
-.contactme-dark {
-  background-color: rgba(144, 144, 144, 0.35);
-  color: #f0f0f0;
-}
-.contactme-light {
-  background-color: #141414;
-  color: #f0f0f0;
-}
-.contactme {
-  padding: 10px;
-  border-radius: 5px;
-  border: 1px solid #585858;
-  cursor: pointer;
-  transition: ease-in-out 200ms;
-  font-family: "Roboto", sans-serif;
-  font-size: 1rem;
-}
-.contactme:hover {
-  -webkit-box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.75);
-  box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.75);
-}
-
 header,
 main,
 .footer,
-.copy {
+.copywirte {
   margin-bottom: 20px;
   min-width: 300px;
   max-width: 1400px;
@@ -78,7 +55,7 @@ main,
   border-radius: 16px;
 }
 
-.copy {
+.copywirte {
   color: #fff;
   text-align: center;
   padding: 40px 18px;
@@ -101,7 +78,6 @@ ul {
 }
 /* -------------------------- */
 
-
 .contact {
   display: inline-block; /* Hace que el <a> pueda tener dimensiones */
   width: 8px;
@@ -122,14 +98,4 @@ ul {
   background-color: rgba(40, 199, 128, 0.15);
   border-radius: 100%;
   transform: translate(-50%, -50%); /* Lo centra respecto al <a> */
-}
-
-.shadow {
-  transition: ease-in-out 200ms;
-}
-
-.shadow:hover {
-  -webkit-box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.75);
-  box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.75);
 }

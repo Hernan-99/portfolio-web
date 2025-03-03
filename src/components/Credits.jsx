@@ -5,7 +5,7 @@ export const Credits = ({ copywrite, linkedin, github }) => {
   const { theme } = useContext(ThemeContext);
   return (
     <div
-      className={`copy dark-mode ${
+      className={`copywirte dark-mode ${
         theme === "dark" ? "dark-mode" : "light-mode"
       }`}
     >
