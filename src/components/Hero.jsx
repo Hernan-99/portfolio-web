@@ -8,7 +8,11 @@ import { DefaultButton } from "./buttons/DefaultButton";
 export const Hero = () => {
   const { theme } = useContext(ThemeContext);
   return (
-    <>
+    <section
+      className={`hero dark-mode ${
+        theme === "dark" ? "dark-mode" : "light-mode"
+      }`}
+    >
       <Badge title="Desarrollador Frontend Jr" />
       <ProfileImg img={ImgProfile} alt="imagen de perfil" />
       <h1 style={{ textAlign: "center", marginBottom: "12px" }}>
@@ -42,6 +46,6 @@ export const Hero = () => {
         <DefaultButton />
         <OutlineButton value="Copy email" />
       </div>
-    </>
+    </section>
   );
 };
