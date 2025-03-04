@@ -11,6 +11,9 @@ import { IconLink } from "./IconLink";
 import { DefaultButton } from "./buttons/DefaultButton";
 
 export const Navbar = ({ theme, handleTheme }) => {
+  const click = () => {
+    console.log("click");
+  };
   return (
     <nav
       style={{
@@ -49,7 +52,7 @@ export const Navbar = ({ theme, handleTheme }) => {
           )}
         </button>
 
-        <DefaultButton />
+        <DefaultButton onClick={click} />
       </ul>
     </nav>
   );
