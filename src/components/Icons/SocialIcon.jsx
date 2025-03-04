@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useContext } from "react";
-import ThemeContext from "../context/ThemeContext";
+import ThemeContext from "../../context/ThemeContext";
 export const SocialIcon = ({ icon }) => {
   const { theme } = useContext(ThemeContext);
   console.log(theme);

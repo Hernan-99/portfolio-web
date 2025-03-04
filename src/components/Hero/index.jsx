@@ -1,13 +1,13 @@
 import { useContext, useState } from "react";
-import ImgProfile from "../assets/img/ImgProfile.webp";
-import { Badge } from "./Badge";
-import { OutlineButton } from "./buttons/OutlineButton";
+import ImgProfile from "../../assets/img/imgProfile.webp";
+import Badge from "../Badge";
+import { OutlineButton } from "../Buttons/OutlineButton";
+import { DefaultButton } from "../Buttons/DefaultButton";
 import { ProfileImg } from "./ProfileImg";
-import ThemeContext from "../context/ThemeContext";
-import { DefaultButton } from "./buttons/DefaultButton";
+import ThemeContext from "../../context/ThemeContext";
 import { DocumentDuplicateIcon } from "@heroicons/react/16/solid";
 
-export const Hero = () => {
+const Hero = () => {
   const { theme } = useContext(ThemeContext);
   const [copy, setCopy] = useState(false);
   const handleCopyEmail = () => {
@@ -73,3 +73,5 @@ export const Hero = () => {
     </section>
   );
 };
+
+export default Hero;

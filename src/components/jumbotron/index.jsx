@@ -1,10 +1,11 @@
 import { useContext, useState } from "react";
-import { DefaultButton } from "../buttons/DefaultButton";
-import { OutlineButton } from "../buttons/OutlineButton";
+import { DefaultButton } from "../Buttons/DefaultButton";
+import { OutlineButton } from "../Buttons/OutlineButton";
 import styles from "./Jumbotron.module.css";
 import ThemeContext from "../../context/ThemeContext";
 import { ArrowDownTrayIcon } from "@heroicons/react/16/solid";
-export const Jumbotron = () => {
+
+const Jumbotron = () => {
   const { theme } = useContext(ThemeContext);
   const [copy, setCopy] = useState(false);
   const handleCopyEmail = () => {
@@ -73,3 +74,5 @@ export const Jumbotron = () => {
     </section>
   );
 };
+
+export default Jumbotron;

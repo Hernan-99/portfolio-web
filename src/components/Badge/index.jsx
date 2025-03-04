@@ -1,4 +1,4 @@
-export const Badge = ({ title }) => {
+const Badge = ({ title }) => {
   return (
     <section
       style={{
@@ -31,3 +31,5 @@ export const Badge = ({ title }) => {
     </section>
   );
 };
+
+export default Badge;

@@ -1,7 +1,7 @@
-import { SocialMedia } from "./SocialMedia";
+import { SocialMedia } from "../Icons/SocialMedia";
 import { Credits } from "./Credits";
 
-export const Footer = () => {
+const Footer = () => {
   return (
     <footer>
       <SocialMedia />
@@ -13,3 +13,5 @@ export const Footer = () => {
     </footer>
   );
 };
+
+export default Footer;

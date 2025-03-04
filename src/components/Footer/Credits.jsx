@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import ThemeContext from "../context/ThemeContext";
+import ThemeContext from "../../context/ThemeContext";
 
 export const Credits = ({ copywrite, linkedin, github }) => {
   const { theme } = useContext(ThemeContext);
@@ -27,12 +27,22 @@ export const Credits = ({ copywrite, linkedin, github }) => {
           }}
         >
           <li>
-            <a className={`text-dark ${theme === "dark" ? "text-dark" : "text-light"}`} href={linkedin}>
+            <a
+              className={`text-dark ${
+                theme === "dark" ? "text-dark" : "text-light"
+              }`}
+              href={linkedin}
+            >
               Linkedin
             </a>
           </li>
           <li>
-            <a className={`text-dark ${theme === "dark" ? "text-dark" : "text-light"}`} href={github}>
+            <a
+              className={`text-dark ${
+                theme === "dark" ? "text-dark" : "text-light"
+              }`}
+              href={github}
+            >
               GitHub
             </a>
           </li>

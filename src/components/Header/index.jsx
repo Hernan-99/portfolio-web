@@ -1,8 +1,8 @@
 import { useContext } from "react";
 import { Navbar } from "./Navbar";
-import ThemeContext from "../context/ThemeContext";
+import ThemeContext from "../../context/ThemeContext";
 
-export const Header = () => {
+const Header = () => {
   const { theme, handleTheme } = useContext(ThemeContext);
   return (
     <header
@@ -12,3 +12,5 @@ export const Header = () => {
     </header>
   );
 };
+
+export default Header;

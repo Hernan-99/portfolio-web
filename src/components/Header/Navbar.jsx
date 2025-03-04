@@ -7,9 +7,8 @@ import {
   MoonIcon,
 } from "@heroicons/react/16/solid";
 
-import { IconLink } from "./IconLink";
-import { DefaultButton } from "./buttons/DefaultButton";
-
+import { IconLink } from "../Icons/IconLink";
+import { DefaultButton } from "../Buttons/DefaultButton";
 export const Navbar = ({ theme, handleTheme }) => {
   const click = () => {
     console.log("click");

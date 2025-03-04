@@ -1,6 +1,6 @@
-import { Hero } from "../components/Hero";
-import { Jumbotron } from "../components/jumbotron/Jumbotron";
-
+import Hero from "../components/Hero";
+import Jumbotron from "../components/Jumbotron";
+Jumbotron;
 export const Main = () => {
   return (
     <main>
