@@ -1,10 +1,19 @@
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { DefaultButton } from "../buttons/DefaultButton";
 import { OutlineButton } from "../buttons/OutlineButton";
 import styles from "./Jumbotron.module.css";
 import ThemeContext from "../../context/ThemeContext";
+import { ArrowDownTrayIcon } from "@heroicons/react/16/solid";
 export const Jumbotron = () => {
   const { theme } = useContext(ThemeContext);
+  const [copy, setCopy] = useState(false);
+  const handleCopyEmail = () => {
+    navigator.clipboard.writeText("hernan24744@gmail.com");
+    setCopy(true);
+    setTimeout(() => {
+      setCopy(false);
+    }, 800);
+  };
 
   return (
     <section className={`${styles.jumbotron}`}>
@@ -35,7 +44,31 @@ export const Jumbotron = () => {
         }}
       >
         <DefaultButton />
-        <OutlineButton value="Copy email" />
+
+        <OutlineButton
+          value="Descargar cv"
+          onClick={handleCopyEmail}
+          icon={ArrowDownTrayIcon}
+        />
+        {copy && (
+          <p
+            style={{
+              color: "#fff",
+              position: "fixed",
+              top: "300px",
+              borderRadius: "6px",
+              fontWeight: "600",
+              backgroundColor: "rgba(0,0,0,0.5)",
+              width: "80%",
+              padding: "20px 8px",
+              textAlign: "center",
+              opacity: copy ? 1 : 0, // Controlamos la visibilidad con opacity
+              transition: "opacity 300ms ease-in-out",
+            }}
+          >
+            Copiado
+          </p>
+        )}
       </div>
     </section>
   );
