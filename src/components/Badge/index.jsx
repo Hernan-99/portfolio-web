@@ -1,3 +1,4 @@
+import TitleSection from "../TitleSection";
 const Badge = ({ title }) => {
   return (
     <section
@@ -8,25 +9,7 @@ const Badge = ({ title }) => {
         marginBottom: "20px",
       }}
     >
-      <div style={{ display: "flex", alignItems: "center" }}>
-        <div
-          style={{
-            width: "8px",
-            height: "8px",
-            backgroundColor: "#616161",
-            borderRadius: "100%",
-            marginRight: "10px",
-          }}
-        ></div>
-        <h1
-          style={{
-            color: "#818181",
-            fontSize: "1rem",
-          }}
-        >
-          {title}
-        </h1>
-      </div>
+      <TitleSection title={title} />
       <a className="contact" href=""></a>
     </section>
   );

@@ -18,11 +18,7 @@ const Hero = () => {
     }, 800);
   };
   return (
-    <section
-      className={`hero dark-mode ${
-        theme === "dark" ? "dark-mode" : "light-mode"
-      }`}
-    >
+    <section className={`hero ${theme === "dark" ? "hero" : "heroLightMode"}`}>
       <Badge title="Desarrollador Frontend Jr" />
       <ProfileImg img={ImgProfile} alt="imagen de perfil" />
       <h1 style={{ textAlign: "center", marginBottom: "12px" }}>

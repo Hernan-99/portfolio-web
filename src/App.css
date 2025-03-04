@@ -39,13 +39,14 @@ html {
   color: #ccc;
 }
 .text-light {
-  color: #6E6E6E;
+  color: #6e6e6e;
 }
 
 header,
 .hero,
 .footer,
-.copywirte {
+.copywirte,
+.showcase {
   margin-bottom: 20px;
   min-width: 300px;
   max-width: 1400px;
@@ -53,6 +54,13 @@ header,
   margin-left: auto;
   padding: 18px;
   border-radius: 16px;
+}
+.hero {
+  color: #ffffff;
+}
+
+.heroLightMode {
+  color: #212121;
 }
 
 .copywirte {
