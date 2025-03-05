@@ -1,5 +1,5 @@
-import { useContext, useEffect, useState } from "react";
-import ImgProfile from "../../assets/img/imgProfile.webp";
+import { useContext, useState } from "react";
+import ImgProfile from "../../assets/img/ImgProfile.webp";
 import Badge from "../Badge";
 import { OutlineButton } from "../Buttons/OutlineButton";
 import { DefaultButton } from "../Buttons/DefaultButton";
@@ -7,7 +7,6 @@ import { ProfileImg } from "./ProfileImg";
 import ThemeContext from "../../context/ThemeContext";
 import { DocumentDuplicateIcon } from "@heroicons/react/16/solid";
 
-const url = "https://hernan-99.github.io/data-portfolio/data/data.json";
 const Hero = () => {
   const { theme } = useContext(ThemeContext);
   const [copy, setCopy] = useState(false);
@@ -18,20 +17,6 @@ const Hero = () => {
       setCopy(false);
     }, 800);
   };
-
-  useEffect(() => {
-    const get = async (url) => {
-      const data = await fetch(url);
-      const json = await data.json();
-
-      json.data.map((el) => {
-        const { id, name, technologies } = el;
-        console.log(id, name, technologies);
-      });
-    };
-
-    get(url);
-  }, []);
 
   return (
     <section className={`hero ${theme === "dark" ? "hero" : "heroLightMode"}`}>
