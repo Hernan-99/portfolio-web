@@ -1,19 +1,15 @@
+import { useContext } from "react";
+import ThemeContext from "../../context/ThemeContext";
+import styles from "./Showcase.module.css";
+
 export const ItemContent = ({ data }) => {
+  const { theme } = useContext(ThemeContext);
   return (
     <li style={{ marginTop: "8px" }}>
       <a
-        style={{
-          backgroundColor: "#373737",
-          display: "inline-block",
-          height: "78px",
-          width: "100%",
-          marginBottom: "8px",
-          padding: "8px 18px",
-          borderRadius: "6px",
-          color: "#ffffff",
-          textDecoration: "none",
-          border: "1px solid rgba(192,192,192,0.15)",
-        }}
+        className={`${styles.item} ${
+          theme === "dark" ? styles.item : styles.itemLightMode
+        }`}
         href=""
       >
         {data.title}

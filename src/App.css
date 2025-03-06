@@ -21,13 +21,19 @@ html {
 }
 
 .dark-mode {
-  background-color: #212121;
+  background-color: #2c2c2c;
   color: #ffffff;
 }
-.light-mode {
-  background-color: #fff;
+.light-mode,
+.light-mode-header {
+  background-color: #f7f7f7;
   color: #212121;
 }
+
+.light-mode-header {
+  background-color: #fff;
+}
+
 .icon-light {
   color: #212121;
 }

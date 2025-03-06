@@ -1,11 +1,30 @@
 .showcaseCustom {
-  background-color: #212121;
+  background-color: #2c2c2c;
   color: #fff;
   margin-bottom: 8px;
 }
 
 .showcaseCustomLight {
-  background-color: #fff;
+  background-color: #f7f7f7;
   color: #212121;
   margin-bottom: 8px;
+}
+
+.item {
+  background-color: #373737;
+  display: inline-block;
+  height: 78px;
+  width: 100%;
+  margin-bottom: 8px;
+  padding: 8px 18px;
+  border-radius: 6px;
+  color: #ffffff;
+  text-decoration: none;
+  border: 1px solid rgba(192, 192, 192, 0.15);
+  font-weight: 500;
+}
+
+.itemLightMode {
+  background-color: #fff;
+  color: #212121;
 }
