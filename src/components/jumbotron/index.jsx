@@ -37,7 +37,6 @@ const Jumbotron = () => {
         style={{
           marginRight: "auto",
           marginLeft: "auto",
-          width: "90%",
           display: "flex",
           justifyContent: "space-around",
           alignItems: "center",
@@ -67,7 +66,7 @@ const Jumbotron = () => {
               transition: "opacity 300ms ease-in-out",
             }}
           >
-            Copiado
+            Descargado
           </p>
         )}
       </div>
