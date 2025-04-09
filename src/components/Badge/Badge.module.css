@@ -1,0 +1,50 @@
+.content {
+  display: none;
+}
+.contact {
+  display: inline-block; /* Hace que el <a> pueda tener dimensiones */
+  width: 8px;
+  height: 8px;
+  background-color: #28c780;
+  border-radius: 100%;
+  position: relative; /* Necesario para que ::after se posicione en relación a este elemento */
+  margin-right: 8px;
+}
+
+.contact::after {
+  content: "";
+  position: absolute; /* Permite posicionarlo sobre el <a> */
+  top: 50%;
+  left: 50%;
+  width: 30px;
+  height: 30px;
+  background-color: rgba(40, 199, 128, 0.15);
+  border-radius: 100%;
+  transform: translate(-50%, -50%); /* Lo centra respecto al <a> */
+}
+
+@media (min-width: 680px) {
+  .contact {
+    display: none;
+  }
+  .content {
+    width: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(40, 199, 128, 0.15);
+    border-radius: 20px;
+    padding: 4px 10px;
+  }
+  .badge {
+    color: #28c780;
+    text-decoration: none;
+  }
+
+  .dot {
+    width: 8px;
+    height: 8px;
+    background-color: #28c780;
+    border-radius: 100%;
+  }
+}

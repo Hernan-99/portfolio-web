@@ -45,7 +45,7 @@
 }
 
 /* MEDIA QUERIES */
-@media (min-width: 600px) {
+@media (min-width: 680px) {
   .containerImg {
     margin-right: 0;
     margin-left: 0;

@@ -1,6 +1,6 @@
 import { useFetch } from "../../hooks/useFetch";
 import { ItemContent } from "./ItemContent";
-
+import styles from "./Showcase.module.css";
 // pasarlo como env
 const url = "https://hernan-99.github.io/data-portfolio/data/data.json";
 
@@ -22,7 +22,7 @@ export const ListContent = ({ type }) => {
   */
 
   return (
-    <ul>
+    <ul className={`${styles.listContent}`}>
       {items.map((el) => (
         <ItemContent key={el.id} data={el} />
       ))}

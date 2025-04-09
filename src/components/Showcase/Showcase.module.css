@@ -10,6 +10,9 @@
   margin-bottom: 8px;
 }
 
+.listItem {
+  margin-top: 8px;
+}
 .item {
   background-color: #373737;
   display: inline-block;
@@ -22,6 +25,11 @@
   text-decoration: none;
   border: 1px solid rgba(192, 192, 192, 0.15);
   font-weight: 500;
+  transition: ease-in-out 300ms;
+}
+
+.item:hover {
+  box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.2);
 }
 
 .itemLightMode {
@@ -55,5 +63,16 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+  }
+
+  .listContent {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .listItem {
+    width: 50%;
+    padding: 5px;
   }
 }

@@ -5,7 +5,7 @@ import styles from "./Showcase.module.css";
 export const ItemContent = ({ data }) => {
   const { theme } = useContext(ThemeContext);
   return (
-    <li style={{ marginTop: "8px" }}>
+    <li className={`${styles.listItem}`}>
       <a
         className={`${styles.item} ${
           theme === "dark" ? styles.item : styles.itemLightMode

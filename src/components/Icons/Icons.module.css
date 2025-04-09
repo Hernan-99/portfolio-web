@@ -1,0 +1,27 @@
+.iconNavLinks {
+  width: 32px;
+  height: 32px;
+  margin-right: 0.5rem;
+  transition: ease-in-out 200ms;
+}
+
+.iconNavLinks:hover {
+  color: #909090;
+}
+
+.icon {
+  font-size: 1.3rem;
+}
+
+@media (min-width: 600px) {
+  .icon {
+    font-size: 1.8rem;
+  }
+
+  .iconNavLinks {
+    width: 36px;
+    height: 36px;
+    margin-right: 1rem;
+    transition: ease-in-out 200ms;
+  }
+}

@@ -1,5 +1,6 @@
 import { useContext } from "react";
 import ThemeContext from "../../context/ThemeContext";
+import styles from "./Footer.module.css";
 
 export const Credits = ({ copywrite, linkedin, github }) => {
   const { theme } = useContext(ThemeContext);
@@ -16,16 +17,7 @@ export const Credits = ({ copywrite, linkedin, github }) => {
         {copywrite}
       </p>
       <nav>
-        <ul
-          style={{
-            display: "flex",
-            width: "50%",
-            justifyContent: "space-around",
-            alignItems: "center",
-            marginLeft: "auto",
-            marginRight: "auto",
-          }}
-        >
+        <ul className={`${styles.social}`}>
           <li>
             <a
               className={`text-dark ${

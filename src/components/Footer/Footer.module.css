@@ -1,0 +1,14 @@
+.social {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 600px) {
+  .social {
+    width: 25%;
+  }
+}

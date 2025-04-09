@@ -48,9 +48,9 @@ export const SocialMedia = () => {
             alignItems: "center",
           }}
         >
-          <SocialIcon icon={faLinkedin} />
-          <SocialIcon icon={faGithub} />
-          <SocialIcon icon={faBehance} />
+          <SocialIcon icon={faLinkedin}/>
+          <SocialIcon icon={faGithub}/>
+          <SocialIcon icon={faBehance}/>
         </ul>
       </div>
     </>
