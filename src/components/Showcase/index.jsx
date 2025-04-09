@@ -22,20 +22,7 @@ const Showcase = ({ title, type }) => {
         }}
       >
         <TitleSection title={title} />
-        <button
-          style={{
-            width: "100px",
-            backgroundColor: "#383838",
-            color: "#fff",
-            border: "none",
-            padding: "8px 10px",
-            borderRadius: "6px",
-            cursor: "pointer",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "space-between",
-          }}
-        >
+        <button className={`${styles.btn}`}>
           Ver todos
           <ArrowUpRightIcon style={{ width: "16px" }} />
         </button>

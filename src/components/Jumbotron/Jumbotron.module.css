@@ -26,3 +26,31 @@
 .jumbotronTextLight {
   color: #6e6e6e;
 }
+
+.containerBtn {
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+@media (min-width: 600px) {
+  .jumbotronTitle {
+    font-size: 46px;
+  }
+
+  .jumbotronText {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+  }
+
+  .containerBtn {
+    margin-right: 0;
+    margin-left: 0;
+    justify-content: center;
+    align-items: center;
+  }
+}

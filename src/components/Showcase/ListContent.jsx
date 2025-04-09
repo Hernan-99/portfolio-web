@@ -1,6 +1,7 @@
 import { useFetch } from "../../hooks/useFetch";
 import { ItemContent } from "./ItemContent";
 
+// pasarlo como env
 const url = "https://hernan-99.github.io/data-portfolio/data/data.json";
 
 //ListContent usa type para acceder a data[type]:

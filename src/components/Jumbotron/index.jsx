@@ -33,17 +33,8 @@ const Jumbotron = () => {
         Me gusta crear una experiencia de usuario y un diseño visualmente
         atractivo.
       </p>
-      <div
-        style={{
-          marginRight: "auto",
-          marginLeft: "auto",
-          display: "flex",
-          justifyContent: "space-around",
-          alignItems: "center",
-          marginBottom: "25px",
-        }}
-      >
-        <DefaultButton />
+      <div className={`${styles.containerBtn}`}>
+        <DefaultButton spacing="10px" />
 
         <OutlineButton
           value="Descargar cv"

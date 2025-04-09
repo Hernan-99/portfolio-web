@@ -2,7 +2,7 @@ import { useContext } from "react";
 import ThemeContext from "../../context/ThemeContext";
 import styles from "./Title.module.css";
 
-const TitleSection = ({ title }) => {
+const TitleSection = ({ title,  }) => {
   const { theme } = useContext(ThemeContext);
   return (
     <div style={{ display: "flex", alignItems: "center" }}>
