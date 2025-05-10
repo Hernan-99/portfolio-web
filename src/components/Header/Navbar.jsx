@@ -21,11 +21,16 @@ export const Navbar = ({ theme, handleTheme }) => {
         alignItems: "center",
       }}
     >
-      <ul style={{ display: "flex", width: "80%" }}>
-        <IconLink theme={theme} Icon={HomeIcon} />
-        <IconLink theme={theme} Icon={UserCircleIcon} />
-        <IconLink theme={theme} Icon={CommandLineIcon} />
-        <IconLink theme={theme} Icon={PencilSquareIcon} />
+      <ul
+        style={{
+          display: "flex",
+          width: "80%",
+        }}
+      >
+        <IconLink theme={theme} Icon={HomeIcon} to="/" />
+        <IconLink theme={theme} Icon={UserCircleIcon} to="/profile" />
+        <IconLink theme={theme} Icon={CommandLineIcon} to="/" />
+        <IconLink theme={theme} Icon={PencilSquareIcon} to="/" />
       </ul>
       <ul
         style={{

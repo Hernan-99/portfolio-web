@@ -1,12 +1,14 @@
-import { Main } from "./Main";
 import { useContext } from "react";
-import ThemeContext from "../context/ThemeContext";
-import styles from "./Pages.module.css";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
-import AnimatedContent from "../components/AnimatedContent/AnimatedContent";
-export const Page = () => {
+
+import Header from "../Header";
+import ThemeContext from "../../context/ThemeContext";
+import Footer from "../Footer";
+import AnimatedContent from "../AnimatedContent/AnimatedContent";
+import styles from "../../pages/Pages.module.css";
+
+const Layout = ({ children }) => {
   const { theme } = useContext(ThemeContext);
+
   return (
     <div className={`${styles.wrapper} ${theme}`}>
       <Header />
@@ -25,10 +27,12 @@ export const Page = () => {
             theme === "dark" ? styles.container : styles.containerLightMode
           }`}
         >
-          <Main />
-          <Footer theme={theme} />
+          <main>{children}</main>
+          <Footer />
         </div>
       </AnimatedContent>
     </div>
   );
 };
+
+export default Layout;
