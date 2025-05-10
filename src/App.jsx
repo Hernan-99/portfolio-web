@@ -2,12 +2,18 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom"; // Agreg
 import { ThemeProvider } from "./context/ThemeContext";
 import { Home } from "./pages/Home";
 import { Profile } from "./pages/Profile";
+import { Projects } from "./pages/Projects";
+import { Blogs } from "./pages/Blogs";
+import { Contactme } from "./pages/Contactme";
 import "./App.css";
 import { PageNotFound } from "./pages/PageNotFound";
 
 const router = createBrowserRouter([
   { path: "/", element: <Home /> },
   { path: "/profile", element: <Profile /> },
+  { path: "/projects", element: <Projects /> },
+  { path: "/blogs", element: <Blogs /> },
+  { path: "/contact-me", element: <Contactme /> },
   { path: "*", element: <PageNotFound /> },
 ]);
 
