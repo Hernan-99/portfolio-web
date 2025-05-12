@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import TitleSection from "../TitleSection";
 import styles from "./Badge.module.css";
 const Badge = ({ title }) => {
@@ -12,12 +13,12 @@ const Badge = ({ title }) => {
     >
       <TitleSection title={title} />
       <a className={`${styles.contact}`} href=""></a>
-      
+
       <div className={`${styles.content}`}>
         <div className={`${styles.dot}`}></div>
-        <a className={`${styles.badge}`} href="">
+        <Link to="/contact-me" className={`${styles.badge}`} href="">
           Disponible para trabajar
-        </a>
+        </Link>
       </div>
     </section>
   );

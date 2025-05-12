@@ -1,7 +1,7 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom"; // Agrega BrowserRouter y Routesimport "./App.css";
 import { ThemeProvider } from "./context/ThemeContext";
 import { Home } from "./pages/Home";
-import { Profile } from "./pages/Profile";
+import { Aboutme } from "./pages/Aboutme";
 import { Projects } from "./pages/Projects";
 import { Blogs } from "./pages/Blogs";
 import { Contactme } from "./pages/Contactme";
@@ -10,7 +10,7 @@ import { PageNotFound } from "./pages/PageNotFound";
 
 const router = createBrowserRouter([
   { path: "/", element: <Home /> },
-  { path: "/profile", element: <Profile /> },
+  { path: "/about-me", element: <Aboutme /> },
   { path: "/projects", element: <Projects /> },
   { path: "/blogs", element: <Blogs /> },
   { path: "/contact-me", element: <Contactme /> },

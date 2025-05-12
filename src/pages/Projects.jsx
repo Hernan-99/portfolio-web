@@ -1,9 +1,10 @@
+import Badge from "../components/Badge";
 import Layout from "../components/Layout/Layout";
 
 export const Projects = () => {
   return (
     <Layout>
-      <h1>Proyectos</h1>
+      <Badge title="Mis proyectos" />
     </Layout>
   );
 };
