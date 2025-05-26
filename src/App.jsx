@@ -7,6 +7,7 @@ import { Blogs } from "./pages/Blogs";
 import { Contactme } from "./pages/Contactme";
 import "./App.css";
 import { PageNotFound } from "./pages/PageNotFound";
+import { Redirect } from "./pages/Redirect";
 
 const router = createBrowserRouter([
   { path: "/", element: <Home /> },
@@ -14,6 +15,7 @@ const router = createBrowserRouter([
   { path: "/projects", element: <Projects /> },
   { path: "/blogs", element: <Blogs /> },
   { path: "/contact-me", element: <Contactme /> },
+  { path: "/redirect", element: <Redirect /> },
   { path: "*", element: <PageNotFound /> },
 ]);
 
