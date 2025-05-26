@@ -29,7 +29,8 @@ export const Navbar = ({ theme, handleTheme }) => {
       >
         <IconLink theme={theme} Icon={HomeIcon} to="/" />
         <IconLink theme={theme} Icon={UserCircleIcon} to="/about-me" />
-        <IconLink theme={theme} Icon={CommandLineIcon} to="/projects" />
+        {/* <IconLink theme={theme} Icon={CommandLineIcon} to="/projects" /> */}
+        <IconLink theme={theme} Icon={CommandLineIcon} to="/redirect" />
         <IconLink theme={theme} Icon={PencilSquareIcon} to="/blogs" />
       </ul>
       <ul

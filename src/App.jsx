@@ -14,7 +14,7 @@ const router = createBrowserRouter([
   { path: "/about-me", element: <Aboutme /> },
   { path: "/projects", element: <Projects /> },
   // { path: "/blogs", element: <Blogs />  },
-  { path: "/blogs", element: <PageNotFound /> },
+  { path: "/blogs", element: <Redirect /> },
   { path: "/contact-me", element: <Contactme /> },
   { path: "/redirect", element: <Redirect /> },
   { path: "*", element: <PageNotFound /> },
