@@ -1,0 +1,85 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal {
+  background: #1e1e1e;
+  padding: 2rem;
+  max-width: 1000px;
+  width: 90%;
+  border-radius: 12px;
+  overflow-y: auto;
+  max-height: 90vh;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+.card {
+  background: #2a2a2a;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  margin-bottom: 1.5rem;
+  transition: transform 0.2s ease;
+}
+
+.cardHeader img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+
+.cardBody {
+  padding: 1rem;
+  color: #f0f0f0;
+}
+
+.techList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  list-style: none;
+  padding: 0;
+  margin-top: 0.5rem;
+}
+
+.techList li {
+  background: #000;
+  color: #fff;
+  padding: 0.3rem 0.6rem;
+  border-radius: 5px;
+  font-size: 0.85rem;
+}
+
+.demoLink {
+  display: inline-block;
+  margin-top: 1rem;
+  background: #a100b8;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background 0.2s ease;
+}
+
+.demoLink:hover {
+  background: #840096;
+}
+
+.closeBtn {
+  margin-top: 1rem;
+  background: #444;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
