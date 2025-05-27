@@ -6,9 +6,9 @@ const Footer = () => {
     <footer>
       <SocialMedia />
       <Credits
-        copywrite="© 2025 Hernan Sanchez – Fullstack Developer"
-        linkedin="https://linkedin.com"
-        github="https://github.com"
+        copywrite="© 2024 Hernan Sanchez – Fullstack Developer"
+        linkedin="https://www.linkedin.com/in/sanchez-hernan-gabriel/"
+        github="https://github.com/Hernan-99"
       />
     </footer>
   );

@@ -24,6 +24,8 @@ export const Credits = ({ copywrite, linkedin, github }) => {
                 theme === "dark" ? "text-dark" : "text-light"
               }`}
               href={linkedin}
+              target="_blank"
+              rel="noreferrer noopener"
             >
               Linkedin
             </a>
@@ -34,6 +36,8 @@ export const Credits = ({ copywrite, linkedin, github }) => {
                 theme === "dark" ? "text-dark" : "text-light"
               }`}
               href={github}
+              target="_blank"
+              rel="noreferrer noopener"
             >
               GitHub
             </a>
