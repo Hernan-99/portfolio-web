@@ -69,14 +69,7 @@ const ContactForm = () => {
 
   return (
     <form className="form" onSubmit={handleSubmit}>
-      <div
-        style={{
-          display: "flex",
-          width: "100%",
-          marginBottom: "0.5rem",
-          gap: "0.5rem",
-        }}
-      >
+      <div className="formGroup">
         <div style={{ width: "100%" }}>
           <input
             className={`${
@@ -109,14 +102,7 @@ const ContactForm = () => {
         </div>
       </div>
 
-      <div
-        style={{
-          display: "flex",
-          width: "100%",
-          marginBottom: "0.5rem",
-          gap: "0.5rem",
-        }}
-      >
+      <div className="formGroup">
         <div style={{ width: "100%" }}>
           <input
             className={`${
@@ -154,6 +140,7 @@ const ContactForm = () => {
           {errors.consulta && <p style={stylesLine}>{errors.consulta}</p>}
         </div>
       </div>
+
       <div style={{ width: "100%", marginBottom: "0.5rem" }}>
         <textarea
           className={`${
@@ -169,6 +156,7 @@ const ContactForm = () => {
         ></textarea>
         {errors.msj && <p style={stylesLine}>{errors.msj}</p>}
       </div>
+
       <div style={{ width: "100%" }}>
         <button
           className={`btnSubmit ${

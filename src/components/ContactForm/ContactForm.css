@@ -3,6 +3,13 @@
   padding: 0 10px;
 }
 
+.formGroup {
+  display: flex;
+  width: 100%;
+  margin-bottom: 0.5rem;
+  gap: 0.5rem;
+}
+
 input,
 select,
 textarea,
@@ -20,7 +27,7 @@ textarea,
 
 textarea {
   resize: none;
-  min-height: 300px;
+  min-height: 250px;
 }
 .btnSubmit {
   background-color: #383838;
@@ -34,6 +41,12 @@ textarea:focus {
   outline: none; /* quitamos el outline por defecto */
   border: 0.3px solid rgba(174, 0, 255, 0.493); /* aplicamos un nuevo borde */
   box-shadow: 0 0 10px rgba(174, 0, 255, 0.493);
+}
+
+@media (max-width: 768px) {
+  .formGroup {
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 1080px) {

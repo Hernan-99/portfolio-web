@@ -1,17 +1,14 @@
 import ContactForm from "../components/ContactForm/ContactForm";
 import Layout from "../components/Layout/Layout";
 import Badge from "../components/Badge";
-
+import styles from "./Pages.module.css"
 export const Contactme = () => {
   return (
     <Layout>
       <Badge title="Contactame" />
       <div
-        style={{
-          marginBottom: "25px",
-          paddingLeft: "18px",
-          paddingRight: "18px",
-        }}
+      className={styles.contacMe}
+
       >
         <h1 style={{ color: "#fff", marginBottom: "20px", fontSize: "2.5rem" }}>
           Realiza tu consulta
