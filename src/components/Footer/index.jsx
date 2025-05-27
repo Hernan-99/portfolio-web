@@ -6,7 +6,7 @@ const Footer = () => {
     <footer>
       <SocialMedia />
       <Credits
-        copywrite="© 2025 Hernan Sanchez – Frontend Developer"
+        copywrite="© 2025 Hernan Sanchez – Fullstack Developer"
         linkedin="https://linkedin.com"
         github="https://github.com"
       />

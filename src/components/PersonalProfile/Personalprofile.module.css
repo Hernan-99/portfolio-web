@@ -1,0 +1,84 @@
+/* ----------- ABOUT ME ------------------ */
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+
+  & h1 {
+    font-size: 2.5rem;
+    color: #f0f0f0;
+    margin-bottom: 20px;
+  }
+}
+
+.description {
+  width: 65%;
+}
+
+.textAbout {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  color: #f0f0f0;
+  margin-bottom: 10px;
+}
+
+.figure {
+  max-width: 300px;
+  min-width: 300px;
+  max-height: 400px;
+  min-height: 400px;
+  padding: 1rem;
+  background-color: #373737;
+  border-radius: 18px;
+
+  & img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 1080px) {
+  .description {
+    width: 100%;
+  }
+
+  .figure {
+    display: none;
+  }
+}
+
+/* ----------- EXPERIENCIA ------------------ */
+.containerExp {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+.badgeExp {
+  background-color: #373737;
+  border-radius: 12px;
+  width: 49%; /* Full width en móvil, ajusta a "49%" en desktop si prefieres 2 columnas*/
+  padding: 1.2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.badgeStack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+@media (max-width: 1080px) {
+  .figure {
+    display: none;
+  }
+}
+@media (max-width: 1270px) {
+  .badgeExp {
+    width: 100%;
+  }
+}

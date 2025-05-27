@@ -1,0 +1,86 @@
+[
+  {
+    "company": "PCs Razers",
+    "position": "Soporte técnico",
+    "task": "Di soporte técnico de forma remota y on site a distintos clientes, me encargaba de tareas como solucionar incidencias técnicas, soporte para software como antivirus, instalaciones, diagnóstico y demás.",
+    "stack": [
+      "Hardware",
+      "Software",
+      "AnyDesk",
+      "Trello",
+      "Gestión de tickets",
+      "Soporte on-site",
+      "Soporte remoto",
+      "Diagnóstico",
+      "Instalación de SO"
+    ]
+  },
+  {
+    "company": "CTeam",
+    "position": "Desarrollador y Diseñador web",
+    "task": "Diseño, desarrollo y mantenimiento de sitios web, optimizando rendimiento, hosting y SSL. Personalización de plantillas y templates. Diseño web - diseño multimedia.",
+    "stack": [
+      "HTML5",
+      "CSS3",
+      "BootStrap",
+      "JavaScript",
+      "PHP",
+      "phpMyAdmin",
+      "WordPress",
+      "Elementor",
+      "Figma",
+      "Photoshop",
+      "Illustrator",
+      "Metodologías ágiles (Kanban)"
+    ]
+  },
+  {
+    "company": "Weblabor MX",
+    "position": "Desarrollador Frontend - Diseñador UX/UI",
+    "task": "Diseño, desarrollo y mantenimiento de sitios web, optimizando rendimiento, hosting y SSL. Personalización de plantillas y templates. Diseño web - diseño multimedia.",
+    "stack": [
+      "HTML5",
+      "CSS3",
+      "TailwindCSS",
+      "JavaScript",
+      "Vue.js",
+      "Alpine.js",
+      "PHP",
+      "Laravel",
+      "Livewire",
+      "Figma",
+      "MySQL",
+      "API RESTful",
+      "MVC",
+      "Pruebas cruzadas",
+      "Postman - Insomnia",
+      "Figma",
+      "Metodologías ágiles (Kanban)"
+    ]
+  },
+  {
+    "company": "Fiverr",
+    "position": "Desarrollador Frontend - Diseñador UX/UI",
+    "task": "Desarrollo frontend con HTML, CSS, JavaScript, React.js y Vue.js. Backend con Node.js, Express y Java con Spring Boot. Creación, integración y optimización de APIs RESTful. Uso de Tailwind, Bootstrap y metodologías ágiles (scrum | kanban).",
+    "stack": [
+      "HTML5",
+      "CSS3",
+      "TailwindCSS",
+      "JavaScript",
+      "React.js",
+      "React router",
+      "Vue.js",
+      "Nuxt.js",
+      "Axios",
+      "Node.js",
+      "Express.js",
+      "MySQL",
+      "MVC",
+      "API RESTful",
+      "Pruebas cruzadas",
+      "Postman - Insomnia",
+      "Figma",
+      "Metodologías ágiles (Scrum | Kanban)"
+    ]
+  }
+]
