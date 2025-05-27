@@ -1,27 +1,21 @@
+import { useContext } from "react";
 import experience from "../../assets/data/experience.json";
 import styles from "./Personalprofile.module.css";
+import ThemeContext from "../../context/ThemeContext";
 export const Experience = () => {
+  const { theme } = useContext(ThemeContext);
   return (
-    <section style={{ color: "#fff", marginBottom: "2rem" }}>
-      <h3
-        style={{
-          fontSize: "1.8rem",
-          color: "#f0f0f0",
-          marginBottom: "20px",
-        }}
-      >
-        Experiencia
-      </h3>
+    <section
+      className={`${styles.exp} ${
+        theme === "light" ? styles.lightMode : styles.darkMode
+      }`}
+    >
+      <h3 className={styles.titleExp}>Experiencia</h3>
 
       <article className={styles.containerExp}>
         {experience.map((exp, i) => (
           <div key={i} className={styles.badgeExp}>
-            <h4
-              style={{
-                marginBottom: "10px",
-                color: "#f0f0f0",
-              }}
-            >
+            <h4 className={styles.position}>
               {exp.position} |{" "}
               <span style={{ color: "#02aab0" }}>{exp.company}</span>
             </h4>
@@ -36,16 +30,7 @@ export const Experience = () => {
             </p>
             <div className={styles.badgeStack}>
               {exp.stack.map((skill) => (
-                <span
-                  key={skill}
-                  style={{
-                    backgroundColor: "#252525",
-                    padding: "0.2rem 0.6rem",
-                    borderRadius: "12px",
-                    fontSize: "0.75rem", // Tamaño más pequeño
-                    opacity: "0.9",
-                  }}
-                >
+                <span key={skill} className={styles.skills}>
                   {skill}
                 </span>
               ))}

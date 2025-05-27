@@ -6,16 +6,23 @@
   gap: 2rem;
   flex-wrap: wrap;
   margin-bottom: 20px;
-
-  & h1 {
-    font-size: 2.5rem;
-    color: #f0f0f0;
-    margin-bottom: 20px;
-  }
 }
 
 .description {
   width: 65%;
+}
+
+.titleAbout {
+  font-size: 2.5rem;
+  color: #f0f0f0;
+  margin-bottom: 20px;
+}
+
+.darkTitle {
+  color: #f0f0f0;
+}
+.lightTitle {
+  color: #212121;
 }
 
 .textAbout {
@@ -23,6 +30,14 @@
   line-height: 1.5;
   color: #f0f0f0;
   margin-bottom: 10px;
+}
+
+.darkText {
+  color: #f0f0f0; /* Color para dark mode (blanco/gris claro) */
+}
+
+.lightText {
+  color: #6e6e6e; /* Color para light mode (gris oscuro) */
 }
 
 .figure {
@@ -41,7 +56,12 @@
     object-fit: cover;
   }
 }
-
+.darkFig {
+  background-color: #373737;
+}
+.lightFig {
+  background-color: #f7f7f7;
+}
 @media (max-width: 1080px) {
   .description {
     width: 100%;
@@ -53,12 +73,21 @@
 }
 
 /* ----------- EXPERIENCIA ------------------ */
+.exp {
+  margin-bottom: 25px;
+}
 .containerExp {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 1.5rem;
 }
+
+.titleExp {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
 .badgeExp {
   background-color: #373737;
   border-radius: 12px;
@@ -70,6 +99,50 @@
   display: flex;
   flex-wrap: wrap;
   gap: 0.4rem;
+}
+
+/* DARK MODE */
+.darkMode {
+  color: #f0f0f0;
+}
+.lightMode {
+  color: #212121;
+}
+
+.darkMode .badgeExp {
+  background-color: #373737;
+}
+.lightMode .badgeExp {
+  background-color: #f7f7f7;
+}
+
+.skills {
+  background-color: #252525;
+  padding: 0.2rem 0.6rem;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  opacity: 0.9;
+}
+
+.darkMode .skills {
+  background-color: #252525;
+  color: #f0f0f0;
+}
+.lightMode .skills {
+  background-color: #dfdfdf;
+  color: #212121;
+}
+
+.position {
+  margin-bottom: 10px;
+  color: #f0f0f0;
+}
+
+.darkMode .position {
+  color: #f0f0f0;
+}
+.lightMode .position {
+  color: #212121;
 }
 
 @media (max-width: 1080px) {
