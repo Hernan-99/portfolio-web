@@ -68,13 +68,7 @@ const ContactForm = () => {
   } = useForm(initialForm, validationsForm);
 
   return (
-    <form
-      onSubmit={handleSubmit}
-      style={{
-        marginBottom: "25px",
-        padding: "0 10px",
-      }}
-    >
+    <form className="form" onSubmit={handleSubmit}>
       <div
         style={{
           display: "flex",

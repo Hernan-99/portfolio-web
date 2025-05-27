@@ -3,15 +3,7 @@ import TitleSection from "../TitleSection";
 import styles from "./Badge.module.css";
 const Badge = ({ title }) => {
   return (
-    <section
-      style={{
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "space-between",
-        marginBottom: "20px",
-        padding: "0 10px",
-      }}
-    >
+    <section className={styles.badgeContainer}>
       <TitleSection title={title} />
       <a className={`${styles.contact}`} href=""></a>
 

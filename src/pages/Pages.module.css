@@ -17,3 +17,16 @@
 .containerLightMode {
   background-color: #ffffff;
 }
+
+/* -------------------- PROJECTS -------------------- */
+
+.projects {
+  padding: 0 10px;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 1080px) {
+  .projects {
+    padding: 0;
+  }
+}

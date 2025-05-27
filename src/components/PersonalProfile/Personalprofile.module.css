@@ -151,6 +151,10 @@
   .figure {
     display: none;
   }
+  .exp,
+  .about {
+    padding: 0;
+  }
 }
 @media (max-width: 1270px) {
   .badgeExp {

@@ -1,3 +1,11 @@
+.badgeContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 0 10px;
+}
+
 .content {
   display: none;
 }
@@ -46,5 +54,11 @@
     height: 8px;
     background-color: #28c780;
     border-radius: 100%;
+  }
+}
+
+@media (max-width: 1080px) {
+  .badgeContainer {
+    padding: 0;
   }
 }
