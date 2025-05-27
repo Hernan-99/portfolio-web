@@ -9,6 +9,7 @@ const Badge = ({ title }) => {
         alignItems: "center",
         justifyContent: "space-between",
         marginBottom: "20px",
+        padding: "0 10px",
       }}
     >
       <TitleSection title={title} />

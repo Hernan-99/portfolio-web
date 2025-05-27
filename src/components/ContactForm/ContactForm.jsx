@@ -72,8 +72,7 @@ const ContactForm = () => {
       onSubmit={handleSubmit}
       style={{
         marginBottom: "25px",
-        paddingLeft: "18px",
-        paddingRight: "18px",
+        padding: "0 10px",
       }}
     >
       <div

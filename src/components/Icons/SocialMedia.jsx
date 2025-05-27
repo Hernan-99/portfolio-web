@@ -19,6 +19,7 @@ export const SocialMedia = () => {
           display: "flex",
           justifyContent: "space-between",
           alignItems: "center",
+          padding: "18px",
           marginBottom: "8px",
         }}
       >
