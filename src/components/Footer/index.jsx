@@ -3,7 +3,7 @@ import { Credits } from "./Credits";
 
 const Footer = () => {
   return (
-    <footer>
+    <footer style={{ paddingLeft: "18px", paddingRight: "18px" }}>
       <SocialMedia />
       <Credits
         copywrite="© 2024 Hernan Sanchez – Fullstack Developer"

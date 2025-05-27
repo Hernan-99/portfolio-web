@@ -5,8 +5,16 @@ import Badge from "../components/Badge";
 export const Contactme = () => {
   return (
     <Layout>
-      <Badge title="Contactame" />
-      <div style={{ marginBottom: "25px" }}>
+      <div style={{ paddingLeft: "18px", paddingRight: "18px" }}>
+        <Badge title="Contactame" />
+      </div>
+      <div
+        style={{
+          marginBottom: "25px",
+          paddingLeft: "18px",
+          paddingRight: "18px",
+        }}
+      >
         <h1 style={{ color: "#fff", marginBottom: "20px", fontSize: "2.5rem" }}>
           Realiza tu consulta
         </h1>

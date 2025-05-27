@@ -6,6 +6,8 @@
   gap: 2rem;
   flex-wrap: wrap;
   margin-bottom: 20px;
+  padding-left: 18px;
+  padding-right: 18px;
 }
 
 .description {
@@ -75,6 +77,8 @@
 /* ----------- EXPERIENCIA ------------------ */
 .exp {
   margin-bottom: 25px;
+  padding-left: 18px;
+  padding-right: 18px;
 }
 .containerExp {
   display: flex;
