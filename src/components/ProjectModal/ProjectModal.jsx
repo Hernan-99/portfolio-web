@@ -1,6 +1,7 @@
 import styles from "./ProjectModal.module.css";
 
 const ProjectModal = ({ category, onClose }) => {
+
   if (!category) return null;
   const handleOverlayClick = (e) => {
     // Si clickeó directamente en el fondo (overlay), cerrar
@@ -26,8 +27,8 @@ const ProjectModal = ({ category, onClose }) => {
           </button>
         </div>
         <article>
-          {category.projects.map((el) => (
-            <div className={styles.card} key={el.id}>
+          {category.projects.map((el, i) => (
+            <div className={styles.card} key={`${i}`}>
               <div className={styles.cardHeader}>
                 <img
                   src={el.image || "https://via.placeholder.com/500x200"}
@@ -36,11 +37,11 @@ const ProjectModal = ({ category, onClose }) => {
               </div>
               <div className={styles.cardBody}>
                 <p>{el.description}</p>
-                {el.technolgies?.length > 0 && (
+                {el.technologies?.length > 0 && (
                   <>
                     <strong>Tecnologías:</strong>
                     <ul className={styles.techList}>
-                      {el.technolgies.map((tech, i) => (
+                      {el.technologies.map((tech, i) => (
                         <li key={i}>{tech}</li>
                       ))}
                     </ul>
