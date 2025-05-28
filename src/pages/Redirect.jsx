@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import styles from "./Pages.module.css";
 
 export const Redirect = () => {
   return (
@@ -26,36 +27,7 @@ export const Redirect = () => {
         proyectos.
       </p>
       <div style={{ display: "flex", gap: "1rem" }}>
-        <a
-          href="https://tuporfolioanterior.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          style={{
-            padding: "0.75rem 1.5rem",
-            backgroundColor: "#a100b8",
-            color: "#fff",
-            borderRadius: "8px",
-            textDecoration: "none",
-            fontWeight: "bold",
-            transition: "background-color 0.3s",
-          }}
-        >
-          Ir a mi portfolio anterior
-        </a>
-        <Link
-          to="/"
-          style={{
-            padding: "0.75rem 1.5rem",
-            backgroundColor: "#444",
-            color: "#fff",
-            borderRadius: "8px",
-            textDecoration: "none",
-            fontWeight: "bold",
-            transition: "background-color 0.3s",
-          }}
-          onMouseOver={(e) => (e.currentTarget.style.backgroundColor = "#666")}
-          onMouseOut={(e) => (e.currentTarget.style.backgroundColor = "#444")}
-        >
+        <Link className={styles.redirect} to="/">
           Volver al Home
         </Link>
       </div>
