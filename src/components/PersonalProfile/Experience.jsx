@@ -2,6 +2,7 @@ import { useContext } from "react";
 import experience from "../../assets/data/experience.json";
 import styles from "./Personalprofile.module.css";
 import ThemeContext from "../../context/ThemeContext";
+
 export const Experience = () => {
   const { theme } = useContext(ThemeContext);
   return (

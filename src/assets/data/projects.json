@@ -1,0 +1,158 @@
+[
+  {
+    "develop": [
+      {
+        "id": 1,
+        "title": "Desarrollo Frontend",
+        "projects": [
+          {
+            "name": "Vivotek - Argentina",
+            "description": "Desarrollo fullstack para empresa local distribuidora de cámaras de seguridad Vivotek. Este desarrollo incluyó tanto la landing page pública como un sistema interno de gestión. Para el frontend comercial utilicé Vue 3 con Nuxt.js, para optimizar el SEO y el rendimiento, con un catálogo dinámico de productos y diseño responsive. En paralelo, implementé un dashboard administrativo con Node.js, Express y MySQL, que permitía la carga y gestión de productos, seguimiento de ventas y operaciones CRUD.",
+            "technologies": [
+              "HTML",
+              "CSS",
+              "Tailwind",
+              "JavaScript",
+              "Vue.js",
+              "Flowbite",
+              "Node.js",
+              "Express.js",
+              "MySQL"
+            ],
+            "image": "https://portfolio-web-sanchez-hernan.netlify.app/assets/img/vivotek.jpg",
+            "url": "https://vvtk-arg.netlify.app/"
+          },
+
+          {
+            "name": "Landing page cafeteria",
+            "description": "En el año 2019, Desarrolle esta landing page para Trecaffè, una casa de café especializado, utilizando tecnologías fundamentales del frontend: HTML5, CSS3, JavaScript y jQuery. Implementé efectos fluidos con jQuery para transiciones suaves, asegurando un rendimiento óptimo y compatibilidad cross-browser. La página es completamente responsive, adaptándose desde móviles hasta desktop, con un enfoque en la estética minimalista.",
+            "technologies": ["HTML", "CSS", "Vanilla JavaScript", "JQuery"],
+            "image": "https://portfolio-web-sanchez-hernan.netlify.app/assets/img/cafeteria.png",
+            "url": "https://trecafe1.netlify.app/"
+          },
+          {
+            "name": "Formulario para DOMO",
+            "description": "Desarrollo de formulario responsive para DOMO utilizando HTML5, CSS3, Bootstrap 5 y JavaScript. La implementación incluyó diseño accesible y adaptativo a distintos dispositivos, para mejorar la experiencia del usuario.",
+            "technologies": ["HTML", "CSS", "BootStrap", "JavaScript"],
+            "image": "https://portfolio-web-sanchez-hernan.netlify.app/assets/img/formdomo.jpg",
+            "url": "https://lighthearted-monstera-4695ec.netlify.app/"
+          },
+          {
+            "name": "Menu de restaurante",
+            "description": "Landing page interactiva, utilizando HTML5, CSS3 y vanilla JavaScript para crear una experiencia digital que reflejara la esencia gourmet del establecimiento. El diseño responsive se adapta a distintos dispositivos, destacando una galería visual de sus platos. Implementé efectos de scroll suave y animaciones discretas para mejorar la interacción. La página fue optimizada para garantizar tiempos de carga rápidos. El resultado fue una plataforma digital que no solo muestra la propuesta culinaria del restaurante, sino que también incrementó significativamente las consultas y reservas mediante una interfaz intuitiva y visualmente atractiva.",
+            "technologies": ["HTML", "CSS", "BootStrap", "JavaScript"],
+            "image": "https://portfolio-web-sanchez-hernan.netlify.app/assets/img/menu.jpg",
+            "url": "https://demo-menu-restaurante.netlify.app/"
+          }
+        ],
+        "type": "develop"
+      },
+      {
+        "id": 2,
+        "title": "Desarrollo Backend",
+        "projects": [],
+        "type": "develop"
+      },
+      {
+        "id": 3,
+        "title": "Desarrollo Fullstack",
+        "projects": [],
+        "type": "develop"
+      },
+      {
+        "id": 4,
+        "title": "Desarrollo Móvil",
+        "projects": [],
+        "type": "develop"
+      },
+      {
+        "id": 5,
+        "title": "WordPress",
+        "projects": [
+          {
+            "name": "I-lab",
+            "description": "Landing para I-lab, servicio técnico...",
+            "technologies": ["HTML", "CSS", "PHP", "WordPress", "Elementor"],
+            "image": "https://portfolio-web-sanchez-hernan.netlify.app/assets/img/vivotek.jpg",
+            "url": "http://ilab-service.infinityfreeapp.com/"
+          }
+        ],
+        "type": "develop"
+      }
+    ]
+  },
+  {
+    "designs": [
+      {
+        "id": 1,
+        "name": "Barber Blade",
+        "description": "Realice el diseño de Barber Blade, una aplicación destinada a la gestión de turnos.",
+        "technologies": [
+          "Figma",
+          "Illustrator",
+          "Photoshop",
+          "Atomic Design",
+          "Mobile"
+        ],
+        "image": "https://i.ibb.co/YBsdcN3Y/portada.jpg",
+        "url": "https://www.behance.net/gallery/218187457/Diseno-UX-UI-barberia"
+      },
+      {
+        "id": 2,
+        "name": " Coworks",
+        "description": "Diseño UX UI, para  de Barber Blade, una aplicación destinada a la gestión de turnos.",
+        "technologies": [
+          "Figma",
+          "Illustrator",
+          "Photoshop",
+          "Atomic Design",
+          "Mobile"
+        ],
+        "image": "https://i.ibb.co/M3hyLyB/Home.jpg",
+        "url": "https://www.behance.net/gallery/206613809/Diseno-de-landing-page"
+      },
+      {
+        "id": 3,
+        "name": " Vivotek - Argentina",
+        "description": "Diseño para distribuidores multinacionales de camaras vivotek.",
+        "technologies": [
+          "Figma",
+          "Illustrator",
+          "Photoshop",
+          "Atomic Design",
+          "Mobile"
+        ],
+        "image": "https://i.ibb.co/9kTbHsBy/Wireframe-1.jpg",
+        "url": "https://www.behance.net/gallery/226434821/Vivotek-Argentina"
+      },
+      {
+        "id": 4,
+        "name": " ParkingApp Mobile",
+        "description": "ParkingApp, es una aplicacion mobile destinada a encontrar, reservar y alquilar cocheras.",
+        "technologies": [
+          "Figma",
+          "Illustrator",
+          "Photoshop",
+          "Atomic Design",
+          "Mobile"
+        ],
+        "image": "https://i.ibb.co/CsHFmXxK/portada.jpg",
+        "url": "https://www.behance.net/gallery/216355165/Prototipos"
+      },
+      {
+        "id": 5,
+        "name": " Login | SignUp",
+        "description": "Diseño de login.",
+        "technologies": [
+          "Figma",
+          "Illustrator",
+          "Photoshop",
+          "Atomic Design",
+          "Mobile"
+        ],
+        "image": "https://i.ibb.co/1JvwbPQq/portada.jpg",
+        "url": "https://www.behance.net/gallery/220137383/Diseno-de-loginsign-up"
+      }
+    ]
+  }
+]

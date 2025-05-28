@@ -1,8 +1,8 @@
 import styles from "./ProjectModal.module.css";
 
-const ProjectModal = ({ category, onClose }) => {
+const ProjectModal = ({ project, onClose }) => {
+  const projectsToShow = project.projects || [project]; // Si es un proyecto individual (diseño), igual lo muestra
 
-  if (!category) return null;
   const handleOverlayClick = (e) => {
     // Si clickeó directamente en el fondo (overlay), cerrar
     if (e.target.classList.contains(styles.overlay)) {
@@ -21,46 +21,39 @@ const ProjectModal = ({ category, onClose }) => {
             color: "#fff",
           }}
         >
-          <h2>{category.title}</h2>
+          <h2>{project.title || project.name}</h2>
           <button className={styles.closeBtn} onClick={onClose}>
             X
           </button>
         </div>
-        <article>
-          {category.projects.map((el, i) => (
-            <div className={styles.card} key={`${i}`}>
+
+        <div className={styles.projectListInModal}>
+          {projectsToShow.map((proj, idx) => (
+            <div key={idx} className={styles.card}>
               <div className={styles.cardHeader}>
-                <img
-                  src={el.image || "https://via.placeholder.com/500x200"}
-                  alt={el.name}
-                />
+                <img src={proj.image} alt={proj.name} />
               </div>
               <div className={styles.cardBody}>
-                <p>{el.description}</p>
-                {el.technologies?.length > 0 && (
-                  <>
-                    <strong>Tecnologías:</strong>
-                    <ul className={styles.techList}>
-                      {el.technologies.map((tech, i) => (
-                        <li key={i}>{tech}</li>
-                      ))}
-                    </ul>
-                  </>
-                )}
-                {el.url && (
-                  <a
-                    className={styles.demoLink}
-                    href={el.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Ver demo
-                  </a>
-                )}
+                <h4>{proj.name}</h4>
+                <p>{proj.description}</p>
+                <strong>Tecnologías:</strong>
+                <ul className={styles.techList}>
+                  {proj.technologies.map((tech, i) => (
+                    <li key={i}>{tech}</li>
+                  ))}
+                </ul>
+                <a
+                  className={styles.demoLink}
+                  href={proj.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Ver demo
+                </a>
               </div>
             </div>
           ))}
-        </article>
+        </div>
       </div>
     </div>
   );
