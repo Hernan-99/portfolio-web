@@ -11,7 +11,7 @@ const Hero = () => {
   const { theme } = useContext(ThemeContext);
   const [copy, setCopy] = useState(false);
   const handleCopyEmail = () => {
-    // navigator.clipboard.writeText("hernan24744@gmail.com"); // la api se bloquea en http por eso no puedo probarlo en el celular
+    navigator.clipboard.writeText("hernan24744@gmail.com"); // la api se bloquea en http por eso no puedo probarlo en el celular
     setCopy(true);
     setTimeout(() => {
       setCopy(false);
@@ -19,11 +19,6 @@ const Hero = () => {
   };
 
   return (
-    //   <section
-    //   className={`hero dark-mode ${
-    //     theme === "dark" ? "dark-mode" : "light-mode"
-    //   }`}
-    // >
     <section className={`hero ${theme === "dark" ? "hero" : "heroLightMode"}`}>
       <Badge title="Desarrollador Fullstack Jr" />
       <div className={`${styles.dvi}`}>
@@ -41,30 +36,17 @@ const Hero = () => {
           </p>
         </div>
       </div>
+
       <div className={`${styles.containerBtns}`}>
         <DefaultButton spacing="10px" />
-        <OutlineButton
-          value="Copy email"
-          onClick={handleCopyEmail}
-          icon={DocumentDuplicateIcon}
-        />
-        {copy && (
-          <p
-            style={{
-              color: "#fff",
-              position: "absolute",
-              top: "250px",
-              borderRadius: "6px",
-              fontWeight: "600",
-              backgroundColor: "rgba(255,255,255,0.5)",
-              width: "80%",
-              padding: "20px 8px",
-              textAlign: "center",
-            }}
-          >
-            Copiado
-          </p>
-        )}
+        <div className={styles.copyContent}>
+          <OutlineButton
+            value="Copy email"
+            onClick={handleCopyEmail}
+            icon={DocumentDuplicateIcon}
+          />
+          {copy && <p className={styles.copy}>Copiado</p>}
+        </div>
       </div>
     </section>
   );
