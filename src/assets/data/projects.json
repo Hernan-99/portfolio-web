@@ -6,6 +6,25 @@
         "title": "Desarrollo Frontend",
         "projects": [
           {
+            "name": "ProAgro - Plataforma de Alquiler de Maquinaria Agraria",
+            "description": "Aplicación full stack diseñada para gestionar el alquiler de maquinaria agraria. Frontend desarrollado en React con TypeScript y Tailwind CSS, ofreciendo una interfaz moderna, responsiva y fluida. Backend construido con Node.js, Express y MySQL, utilizando Sequelize como ORM para la gestión de datos. La app implementa autenticación y autorización mediante JWT (Bearer), navegación con React Router, y una API RESTful que permite realizar operaciones CRUD completas sobre usuarios, máquinas y reservas.",
+            "technologies": [
+              "HTML",
+              "CSS",
+              "Tailwind",
+              "TypeScript",
+              "React",
+              "React Router",
+              "JWT (Bearer)",
+              "Node.js",
+              "Express.js",
+              "MySQL",
+              "ORM (Sequelize)"
+            ],
+            "image": "https://i.ibb.co/S4JnDr4R/Captura-de-pantalla-2025-11-05-164721.jpg",
+            "url": "https://pro-agro.netlify.app/"
+          },
+          {
             "name": "TemplateGenerator - Aplicación para crear Emails de Marketing",
             "description": "Template Generator es una app full stack para crear plantillas de email marketing. Desarrollada con Angular 18, Node.js, Express y MySQL, incluye autenticación con JWT, hash de contraseñas y una API RESTful que permite realizar CRUD tanto de usuarios como de plantillas. Utiliza Sequelize como ORM y ofrece una interfaz moderna con formularios reactivos y gestión de estado con signals.",
             "technologies": [
