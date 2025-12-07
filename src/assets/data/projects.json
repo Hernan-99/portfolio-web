@@ -107,6 +107,24 @@
             ],
             "image": "https://i.ibb.co/Ng3BddS9/app-demo.jpg",
             "url": "https://github.com/Hernan-99/TemplateGeneratorBackend.git"
+          },
+          {
+            "name": "Nexo - Aplicación de tareas",
+            "description": "Nexo es una app fullstack destinada a la gestion de tareas. Fue y contiua siendo desarrollada en Java mediante una arquitectura sólida que posee un sistema de autenticación segura basado en JWT (access y refresh tokens), manejo de sesiones y contraseñas hasheadas. Ademas implemente una API RESTful para las funciones CRUD respaldada por MySQL para la administración completa de tareas y la persistencia eficiente de datos. Como extensión innovadora, incorporé un microservicio en Python capaz de generar tareas a partir de audio, procesando la transcripción mediante FastAPI, entornos virtuales (venv), Whisper y modelos de IA con TensorFlow para dicha transcripcion. Este módulo permite crear tareas sin necesidad de escribir, integrándose de forma fluida con el servicio principal. El proyecto continúa en desarrollo, con foco en escalabilidad, mejoras funcionales y ampliación de capacidades asistidas por IA.",
+            "technologies": [
+              "Java 21",
+              "Spring Boot 3.4",
+              "JWT (Access & Refresh Tokens)",
+              "RESTful APIs",
+              "MySQL",
+              "Python 3",
+              "FastAPI",
+              "Whisper",
+              "TensorFlow"
+            ],
+
+            "image": "https://i.ibb.co/W4Zd3FXM/nexoapp.png",
+            "url": "https://github.com/Hernan-99/Nexo"
           }
         ],
         "type": "develop"
