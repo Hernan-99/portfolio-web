@@ -24,20 +24,20 @@
       "GitHub",
       "GitFlow",
       "AWS - CodeCommit",
-      "Figma",
       "Metodologías ágiles (Scrum | Kanban)"
     ]
   },
   {
     "company": "Weblabor MX",
-    "position": "Desarrollador Fullstack",
-    "task": "Diseño, desarrollo y mantenimiento de sitios web, optimizando rendimiento, hosting y SSL. Personalización de plantillas y templates. Diseño web - diseño multimedia.",
+    "position": "Desarrollador Frontend | Fullstack",
+    "task": "Forme parte del equipo de desarrollo de Weblabor MX como desarrollador fullstack orientado a frontend. Enfocado en construir interfaces de usuario interactivas con TALL Stack (Tailwind, Alpine, Livewire y laravel) y Vue 3 a través de la integración y de terceros. Por otro lado, en mis funciones como fullstack participe en el desarrollo de APIs RESTFul con PHP, Laravel y MySQL como base de datos. Realice mantenimiento de sistemas y mejoras funcionales. Metodologías ágiles (kanban).",
     "stack": [
       "HTML5",
       "CSS3",
       "TailwindCSS",
       "JavaScript",
       "TypeScript",
+      "Inertia",
       "Vue.js",
       "Alpine.js",
       "PHP",
@@ -76,22 +76,6 @@
       "Photoshop",
       "Illustrator",
       "Metodologías ágiles (Kanban)"
-    ]
-  },
-  {
-    "company": "PCs Razers",
-    "position": "Soporte técnico",
-    "task": "Di soporte técnico de forma remota y on site a distintos clientes, me encargaba de tareas como solucionar incidencias técnicas, soporte para software como antivirus, instalaciones, diagnóstico y demás.",
-    "stack": [
-      "Hardware",
-      "Software",
-      "AnyDesk",
-      "Trello",
-      "Gestión de tickets",
-      "Soporte on-site",
-      "Soporte remoto",
-      "Diagnóstico",
-      "Instalación de SO"
     ]
   }
 ]
