@@ -2,7 +2,7 @@
   {
     "company": "Wabox",
     "position": "Desarrollador Fullstack",
-    "task": "Desarrollo frontend con HTML, CSS, JavaScript, TypeScript y React.js. Backend con Node.js, Express y Java con Spring Boot. Creación, integración y optimización de APIs RESTful. Uso de Tailwind, Bootstrap y metodologías ágiles (scrum | kanban).",
+    "task": "Me desempeñé como desarrollador fullstack participando en el diseño, construcción y mantenimiento de software interno. Junto con mi equipo trabajaamos en el desarrollo de interfaces utilizando HTML, CSS, Tailwind, JavaScript, TypeScript y React.js, aplicando buenas prácticas y asegurando un rendimiento óptimo. En el backend participe en el desarrollo de servicios y microservicios con Node.js y Express, así como en la implementación de APIs RESTful con Java y Spring Boot. Contribuí a la integración de sistemas externos, optimización de endpoints, mejora de tiempos de respuesta y documentación técnica. Metodologías ágiles (scrum | kanban).",
     "stack": [
       "HTML5",
       "CSS3",
@@ -60,7 +60,7 @@
   {
     "company": "CTeam",
     "position": "Desarrollador y Diseñador web",
-    "task": "Diseño, desarrollo y mantenimiento de sitios web, optimizando rendimiento, hosting y SSL. Personalización de plantillas y templates. Diseño web - diseño multimedia.",
+    "task": "Estuve acargo del diseño, desarrollo y mantenimiento de sitios web, optimizando rendimiento, hosting y SSL. Personalización de plantillas y templates. Diseño web - diseño multimedia.",
     "stack": [
       "HTML5",
       "CSS3",
@@ -76,6 +76,22 @@
       "Photoshop",
       "Illustrator",
       "Metodologías ágiles (Kanban)"
+    ]
+  },
+  {
+    "company": "PC Ryzer's",
+    "position": "Soporte técnico",
+    "task": "Di soporte técnico de forma remota y on site a distintos clientes, me encargaba de tareas como solucionar incidencias técnicas, soporte para software como antivirus, instalaciones, diagnóstico y demás.",
+    "stack": [
+      "Hardware",
+      "Software",
+      "AnyDesk",
+      "Trello",
+      "Gestión de tickets",
+      "Soporte on-site",
+      "Soporte remoto",
+      "Diagnóstico",
+      "Instalación de SO"
     ]
   }
 ]
