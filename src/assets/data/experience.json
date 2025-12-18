@@ -2,7 +2,7 @@
   {
     "company": "Wabox",
     "position": "Desarrollador Fullstack",
-    "task": "Me desempeñé como desarrollador fullstack participando en el diseño, construcción y mantenimiento de software interno. Junto con mi equipo trabajaamos en el desarrollo de interfaces utilizando HTML, CSS, Tailwind, JavaScript, TypeScript y React.js, aplicando buenas prácticas y asegurando un rendimiento óptimo. En el backend participe en el desarrollo de servicios y microservicios con Node.js y Express, así como en la implementación de APIs RESTful con Java y Spring Boot. Contribuí a la integración de sistemas externos, optimización de endpoints, mejora de tiempos de respuesta y documentación técnica. Metodologías ágiles (scrum | kanban).",
+    "task": "Me desempeñé como desarrollador fullstack participando en el diseño, construcción y mantenimiento de software interno. Junto con mi equipo trabajamos en el desarrollo de interfaces utilizando HTML, CSS, Tailwind, JavaScript, TypeScript y Frameworks de js, aplicando buenas prácticas y asegurando un rendimiento óptimo. En el backend participe en el desarrollo de servicios y microservicios con Node.js y Express, así como en la implementación de APIs RESTful con Java y Spring Boot. Contribuí a la integración de sistemas externos, optimización de endpoints, mejora de tiempos de respuesta y documentación técnica. Metodologías ágiles (scrum | kanban).",
     "stack": [
       "HTML5",
       "CSS3",
@@ -12,6 +12,7 @@
       "React.js",
       "React router",
       "Axios",
+      "Angular 17",
       "Node.js",
       "Express.js",
       "MySQL",
