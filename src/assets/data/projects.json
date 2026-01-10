@@ -195,20 +195,6 @@
             "url": "https://juego-de-dados.netlify.app/"
           }
         ]
-      },
-      {
-        "id": 6,
-        "title": "WordPress",
-        "projects": [
-          {
-            "name": "I-lab",
-            "description": "Landing para I-lab, servicio técnico...",
-            "technologies": ["HTML", "CSS", "PHP", "WordPress", "Elementor"],
-            "image": "https://portfolio-web-sanchez-hernan.netlify.app/assets/img/vivotek.jpg",
-            "url": "http://ilab-service.infinityfreeapp.com/"
-          }
-        ],
-        "type": "develop"
       }
     ]
   },
