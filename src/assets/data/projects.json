@@ -158,7 +158,24 @@
       {
         "id": 4,
         "title": "Desarrollo Móvil",
-        "projects": [],
+        "projects": [
+          {
+            "name": "QR ProScaner - Aplicación móvil para escanear y crear códigos QR",
+            "description": "Aplicación móvil desarrollada con React Native que permite escanear códigos QR de forma rápida y generar códigos personalizados para distintos usos. La app ofrece una experiencia simple e intuitiva, permitiendo al usuario crear QR a partir de texto, enlaces u otros datos, así como escanear códigos en tiempo real utilizando la cámara del dispositivo. Está optimizada para un rendimiento fluido y una interfaz moderna enfocada en usabilidad.",
+            "technologies": [
+              "JavaScript",
+              "React Native",
+              "Expo",
+              "React Hooks",
+              "Camera API",
+              "QR Scanner",
+              "QR Generator",
+              "Diseño Mobile UI/UX con figma"
+            ],
+            "image": "https://i.ibb.co/ccTJtC53/qr-Pro-Scanner.png",
+            "url": "https://github.com/Hernan-99/qr-ProScanner"
+          }
+        ],
         "type": "develop"
       },
       {
