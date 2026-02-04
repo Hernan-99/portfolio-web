@@ -24,25 +24,7 @@
             "image": "https://i.ibb.co/S4JnDr4R/Captura-de-pantalla-2025-11-05-164721.jpg",
             "url": "https://pro-agro.netlify.app/"
           },
-          {
-            "name": "TemplateGenerator - Aplicación para crear Emails de Marketing",
-            "description": "Template Generator es una app full stack para crear plantillas de email marketing. Desarrollada con Angular 18, Node.js, Express y MySQL, incluye autenticación con JWT, hash de contraseñas y una API RESTful que permite realizar CRUD tanto de usuarios como de plantillas. Utiliza Sequelize como ORM y ofrece una interfaz moderna con formularios reactivos y gestión de estado con signals.",
-            "technologies": [
-              "HTML",
-              "CSS",
-              "Tailwind",
-              "TypeScript",
-              "Angular (v18)",
-              "Unlayerjs",
-              "Scrollrevealjs",
-              "JWT",
-              "Express.js",
-              "MySQL",
-              "ORM (Sequelize)"
-            ],
-            "image": "https://i.ibb.co/Ng3BddS9/app-demo.jpg",
-            "url": "https://template-generator-demo.netlify.app"
-          },
+        
           {
             "name": "Vivotek - Argentina",
             "description": "Desarrollo fullstack para empresa local distribuidora de cámaras de seguridad Vivotek. Este desarrollo incluyó tanto la landing page pública como un sistema interno de gestión. Para el frontend comercial utilicé Vue 3 con Nuxt.js, para optimizar el SEO y el rendimiento, con un catálogo dinámico de productos y diseño responsive. En paralelo, implementé un dashboard administrativo con Node.js, Express y MySQL, que permitía la carga y gestión de productos, seguimiento de ventas y operaciones CRUD.",
@@ -85,29 +67,7 @@
         ],
         "type": "develop"
       },
-      {
-        "id": 2,
-        "title": "Desarrollo Backend",
-        "projects": [
-          {
-            "name": "TemplateGenerator - Aplicación para crear Emails de Marketing",
-            "description": "Template Generator es una app full stack para crear plantillas de email marketing. Desarrollada con Angular 18, Node.js, Express y MySQL, incluye autenticación con JWT, hash de contraseñas y una API RESTful que permite realizar CRUD tanto de usuarios como de plantillas. Utiliza Sequelize como ORM y ofrece una interfaz moderna con formularios reactivos y gestión de estado con signals.",
-            "technologies": [
-              "HTML",
-              "CSS",
-              "Tailwind",
-              "TypeScript",
-              "Angular (v18)",
-              "Unlayerjs",
-              "Scrollrevealjs",
-              "JWT",
-              "Express.js",
-              "MySQL",
-              "ORM (Sequelize)"
-            ],
-            "image": "https://i.ibb.co/Ng3BddS9/app-demo.jpg",
-            "url": "https://github.com/Hernan-99/TemplateGeneratorBackend.git"
-          },
+
           {
             "name": "Nexo - Aplicación de tareas",
             "description": "Nexo es una app fullstack destinada a la gestion de tareas. Fue y contiua siendo desarrollada en Java mediante una arquitectura sólida que posee un sistema de autenticación segura basado en JWT (access y refresh tokens), manejo de sesiones y contraseñas hasheadas. Ademas implemente una API RESTful para las funciones CRUD respaldada por MySQL para la administración completa de tareas y la persistencia eficiente de datos. Como extensión innovadora, incorporé un microservicio en Python capaz de generar tareas a partir de audio, procesando la transcripción mediante FastAPI, entornos virtuales (venv), Whisper y modelos de IA con TensorFlow para dicha transcripcion. Este módulo permite crear tareas sin necesidad de escribir, integrándose de forma fluida con el servicio principal. El proyecto continúa en desarrollo, con foco en escalabilidad, mejoras funcionales y ampliación de capacidades asistidas por IA.",
