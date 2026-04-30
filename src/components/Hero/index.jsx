@@ -20,7 +20,7 @@ const Hero = () => {
 
   return (
     <section className={`hero ${theme === "dark" ? "hero" : "heroLightMode"}`}>
-      <Badge title="Desarrollador Fullstack Jr" />
+      <Badge title="Desarrollador Frontend Jr" />
       <div className={`${styles.dvi}`}>
         <ProfileImg img={ImgProfile} alt="imagen de perfil" />
         <div className={`${styles.containerText}`}>
@@ -30,9 +30,12 @@ const Hero = () => {
               theme === "dark" ? "text-dark" : "text-light"
             }`}
           >
-            Apasionado por la tecnología, el desarrollo y el diseño UI.
-            Actualmente cursando la Tec. en programación en la Universidad
-            Nacional Guillermo Brown.
+            Actualmente cuento con aproximadamente 2 años de experiencia como
+            desarrollador, mi perfil es orientado a frontend, aunque también
+            tuve la oportunidad de desempeñarme como fullstack. Mi objetivo
+            actual es encontrar nuevos desafíos que me permitan continuar
+            desarrollando mis habilidades y aportar valor dentro de un equipo
+            dinámico y orientado a resultados.
           </p>
         </div>
       </div>
