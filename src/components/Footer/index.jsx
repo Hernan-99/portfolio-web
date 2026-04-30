@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className={styles.footer}>
       <SocialMedia />
       <Credits
-        copywrite="© 2024 Hernan Sanchez – Fullstack Developer"
+        copywrite="© 2024 Hernan Sanchez – Frontend Developer"
         linkedin="https://www.linkedin.com/in/sanchez-hernan-gabriel/"
         github="https://github.com/Hernan-99"
       />
